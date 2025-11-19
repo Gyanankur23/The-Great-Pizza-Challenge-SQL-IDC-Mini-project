@@ -1,8 +1,8 @@
-# 🍕 Pizza Analytics Challenge
+#  Pizza Analytics Challenge
 
-This repository contains SQL queries used to explore and analyze a synthetic pizza sales database. The queries are structured across four phases, each focusing on a different aspect of data inspection, filtering, performance, and category insights.
+This repository contains SQL queries used to explore and analyze a synthetic pizza sales database for the SQL Indian Data club Mini Project Challenge. The queries are structured across four phases, each focusing on a different aspect of data inspection, filtering, performance, and category insights.
 
-## 📦 Dataset Structure
+##  Dataset Structure
 
 The database includes four tables:
 
@@ -11,11 +11,11 @@ The database includes four tables:
 - `orders`: order_id, date, time  
 - `order_details`: order_details_id, order_id, pizza_id, quantity  
 
-## 📑 File Included
+##  File Included
 
 - `pizza_queries.sql`: All SQL queries used in the challenge, organized by phase.
 
-## 🧠 Topics Covered
+##  Topics Covered
 
 - DISTINCT, COALESCE, LIKE, BETWEEN  
 - Aggregations: SUM, AVG  
@@ -23,7 +23,7 @@ The database includes four tables:
 - JOIN operations across multiple tables  
 - GROUP BY and HAVING for category-level insights
 
-## ✅ Execution
+##  Execution
 
 These queries were executed on a PostgreSQL database hosted in Supabase.  
 No external dependencies required — just import the schema and run the SQL file.
